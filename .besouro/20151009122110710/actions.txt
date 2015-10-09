@@ -155,3 +155,9 @@ RefactoringAction 1444386667500 TestCell.java RENAME testDeadCellWithOverThreeNe
 RefactoringAction 1444386671010 TestCell.java RENAME testDeadCellWithThreeNeighboursShouldDie()=>void testDeadCellWithExactlyThreeNeighboursShouldDie() METHOD
 RefactoringAction 1444386675526 TestCell.java RENAME testDeadCellWithExactlyThreeNeighboursShouldDie()=>void testDeadCellWithExactlyThreeNeighboursShouldBecomeAlive() METHOD
 EditAction 1444386685292 TestCell.java 1265 5 15 5
+UnitTestCaseAction 1444386689103 TestCell.java OK
+UnitTestSessionAction 1444386689104 TestCell OK
+RefactoringAction 1444386709072 TestCell.java ADD void testDeadCellWithExactlyThreeNeighboursShouldBecomeAlive()/2 METHOD
+RefactoringAction 1444386714584 TestCell.java RENAME testDeadCellWithExactlyThreeNeighboursShouldBecomeAlive()/2=>void testDeadCellWithLessThanThreeNeighboursShouldBecomeAlive() METHOD
+RefactoringAction 1444386720101 TestCell.java RENAME testDeadCellWithLessThanThreeNeighboursShouldBecomeAlive()=>void testDeadCellWithLessThanThreeNeighboursShouldStayDead() METHOD
+EditAction 1444386730511 TestCell.java 1487 6 18 6
