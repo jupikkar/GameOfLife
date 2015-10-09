@@ -32,5 +32,19 @@ public class TestGrid {
 		
 		assertEquals(1, numNeighbours);
 	}
+	
+	@Test
+	public void TwoNeighbourCellsOnDifferentRowsGridShouldHaveOneNeighbourEach() {
+		Grid grid = new Grid();
+		Cell cell1 = new Cell(0,0);
+		Cell cell2 = new Cell(1,0);
+		
+		grid.addCell(cell1);
+		grid.addCell(cell2);
+		
+		int numNeighbours = grid.getNeighbours(cell1);
+		
+		assertEquals(1, numNeighbours);
+	}
 
 }

@@ -118,3 +118,9 @@ UnitTestSessionAction 1444385536716 TestGrid FAIL
 UnitTestCaseAction 1444385543580 TestGrid.java FAIL
 UnitTestSessionAction 1444385543582 TestGrid FAIL
 EditAction 1444385623802 Grid.java 540 2 5 0
+UnitTestCaseAction 1444385630903 TestGrid.java FAIL
+UnitTestSessionAction 1444385630905 TestGrid FAIL
+RefactoringAction 1444385696158 TestGrid.java ADD void TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach()/2 METHOD
+RefactoringAction 1444385703685 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach()/2=>void TwoNeighbourCellsOnDiGridShouldHaveOneNeighbourEach() METHOD
+RefactoringAction 1444385706198 TestGrid.java RENAME TwoNeighbourCellsOnDiGridShouldHaveOneNeighbourEach()=>void TwoNeighbourCellsOnDifferentRowsGridShouldHaveOneNeighbourEach() METHOD
+EditAction 1444385711078 TestGrid.java 1150 3 19 3
