@@ -28,3 +28,10 @@ RefactoringAction 1444383349164 TestGrid.java ADD import org.unioulu.tol.sqatlab
 RefactoringAction 1444383352486 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
 RefactoringAction 1444383362874 Cell.java ADD Cell(int, int) METHOD
 EditAction 1444383371607 Cell.java 459 4 3 0
+CompilationAction 1444383374533 TestGrid.java
+CompilationAction 1444383374534 TestGrid.java
+RefactoringAction 1444383384932 Cell.java ADD int x FIELD
+RefactoringAction 1444383384933 Cell.java ADD int y FIELD
+CompilationAction 1444383396063 TestGrid.java
+CompilationAction 1444383396064 TestGrid.java
+EditAction 1444383404281 TestGrid.java 437 1 4 1

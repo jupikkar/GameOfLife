@@ -3,13 +3,16 @@ package org.unioulu.tol.sqatlab.gameoflife;
 public class Cell {
 	
 	String state;
+	int x;
+	int y;
 
 	public Cell(String initialState) {
 		this.state = initialState;
 	}
 
 	public Cell(int x, int y) {
-		// TODO Auto-generated constructor stub
+		this.x = x;
+		this.y = y;
 	}
 
 	public void nextIteration(int numberOfLiveCells) {
