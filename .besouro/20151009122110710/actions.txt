@@ -56,3 +56,10 @@ EditAction 1444383629164 TestGrid.java 797 2 12 2
 EditAction 1444383647087 TestGrid.java 799 2 12 2
 CompilationAction 1444383649988 TestGrid.java
 EditAction 1444383652374 TestGrid.java 800 2 12 2
+RefactoringAction 1444383664106 TestGrid.java RENAME TwoCellsonGridHasNoNeighbours()=>void TwoN() METHOD
+RefactoringAction 1444383668617 TestGrid.java RENAME TwoN()=>void TwoNeighbourCellsOnGrid() METHOD
+RefactoringAction 1444383674628 TestGrid.java RENAME TwoNeighbourCellsOnGrid()=>void TwoNeighbourCellsOnGridShouldHaveOne() METHOD
+RefactoringAction 1444383675642 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOne()=>void TwoNeighbourCellsOnGridShouldHaveOneN() METHOD
+RefactoringAction 1444383677653 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOneN()=>void TwoNeighbourCellsOnGridShouldHaveOneNeighbou() METHOD
+RefactoringAction 1444383680663 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOneNeighbou()=>void TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach() METHOD
+EditAction 1444383682123 TestGrid.java 820 2 12 2

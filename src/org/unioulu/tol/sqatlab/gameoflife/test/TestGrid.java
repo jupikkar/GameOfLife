@@ -20,7 +20,7 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void TwoCellsonGridHasNoNeighbours() {
+	public void TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach() {
 		Grid grid = new Grid();
 		Cell cell1 = new Cell(0,0);
 		Cell cell2 = new Cell(0,1);
