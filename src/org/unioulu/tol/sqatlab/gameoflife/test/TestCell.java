@@ -67,5 +67,15 @@ public class TestCell {
 		//assert
 		assertEquals("Dead", cell.getState());
 	}
+	
+	@Test
+	public void testDeadCellWithOverThreeNeighboursShouldStayDead() {
+		//arrange
+		Cell cell = new Cell("Dead");
+		//act
+		cell.nextIteration(4);
+		//assert
+		assertEquals("Dead", cell.getState());
+	}
 
 }
