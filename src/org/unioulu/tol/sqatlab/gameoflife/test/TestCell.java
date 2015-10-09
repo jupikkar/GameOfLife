@@ -45,7 +45,7 @@ public class TestCell {
 		//act
 		cell.nextIteration(4);
 		//assert
-		assertEquals("Alive", cell.getState());
+		assertEquals("Dead", cell.getState());
 	}
 
 }
