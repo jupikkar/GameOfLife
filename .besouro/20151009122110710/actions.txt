@@ -1,0 +1,3 @@
+FileOpenedAction 1444382471359 TestCell.java 612 2 6 2
+RefactoringAction 1444382482853 TestCell.java RENAME testLiveCellWithNeighboursShouldDie()=>void testLiveCellWithTwoNeighboursShouldDie() METHOD
+EditAction 1444382487316 TestCell.java 616 2 6 2
