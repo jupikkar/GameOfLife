@@ -8,6 +8,10 @@ public class Cell {
 		this.state = initialState;
 	}
 
+	public Cell(int x, int y) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public void nextIteration(int numberOfLiveCells) {
 		if (state == "Alive" && numberOfLiveCells < 2)
 			state = "Dead";

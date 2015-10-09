@@ -22,3 +22,9 @@ RefactoringAction 1444383046954 TestGrid.java RENAME test()=>void s() METHOD
 RefactoringAction 1444383049963 TestGrid.java RENAME s()=>void singleCell() METHOD
 RefactoringAction 1444383054471 TestGrid.java RENAME singleCell()=>void singleCellGrid() METHOD
 EditAction 1444383307004 TestGrid.java 339 1 4 1
+CompilationAction 1444383309849 TestGrid.java
+CompilationAction 1444383309849 TestGrid.java
+RefactoringAction 1444383349164 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Grid IMPORT
+RefactoringAction 1444383352486 TestGrid.java ADD import org.unioulu.tol.sqatlab.gameoflife.Cell IMPORT
+RefactoringAction 1444383362874 Cell.java ADD Cell(int, int) METHOD
+EditAction 1444383371607 Cell.java 459 4 3 0
