@@ -90,3 +90,11 @@ UnitTestSessionAction 1444384664895 TestGrid FAIL
 EditAction 1444384830477 Grid.java 331 2 3 0
 CompilationAction 1444384833353 Grid.java
 EditAction 1444384843753 Grid.java 335 2 3 0
+CompilationAction 1444384846391 Grid.java
+CompilationAction 1444384894797 Grid.java
+RefactoringAction 1444384916999 Cell.java ADD int get FIELD
+RefactoringAction 1444384919013 Cell.java RENAME get=>int getX FIELD
+RefactoringAction 1444384925524 Cell.java RENAME getX=>int getX() METHOD
+RefactoringAction 1444384950080 Cell.java ADD int getY FIELD
+RefactoringAction 1444384952098 Cell.java RENAME getY=>int getY() METHOD
+EditAction 1444384991252 Cell.java 1233 8 21 0
