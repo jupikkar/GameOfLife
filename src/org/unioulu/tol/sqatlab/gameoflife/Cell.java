@@ -23,10 +23,10 @@ public class Cell {
 		return y;
 	}
 
-	public void nextIteration(int numberOfLiveCells) {
-		if (state == "Alive" && numberOfLiveCells < 2)
+	public void nextIteration(int numberOfLiveNeighbours) {
+		if (state == "Alive" && numberOfLiveNeighbours < 2)
 			state = "Dead";
-		else if (state == "Alive" && numberOfLiveCells > 3)
+		else if (state == "Alive" && numberOfLiveNeighbours > 3)
 			state = "Dead";
 		else
 			state = "Alive";
