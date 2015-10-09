@@ -177,3 +177,48 @@ EditAction 1444387192085 TestCell.java 1705 7 21 7
 UnitTestCaseAction 1444387195957 TestCell.java FAIL
 UnitTestSessionAction 1444387195958 TestCell FAIL
 EditAction 1444387221012 Cell.java 1481 8 21 0
+UnitTestCaseAction 1444387229756 TestCell.java OK
+UnitTestSessionAction 1444387229757 TestCell OK
+RefactoringAction 1444387394654 Grid.java ADD Grid(int, int) METHOD
+RefactoringAction 1444387574760 Grid.java REMOVE Grid(int, int) METHOD
+RefactoringAction 1444387628311 Grid.java ADD Grid(Set<Cell>) METHOD
+RefactoringAction 1444387660341 Grid.java REMOVE cells FIELD
+RefactoringAction 1444387677873 Grid.java ADD Set<Cell> cells FIELD
+RefactoringAction 1444387679382 Grid.java REMOVE cells FIELD
+RefactoringAction 1444387681394 Grid.java ADD Set<Cell> cells FIELD
+RefactoringAction 1444387709133 Grid.java REMOVE Grid(Set<Cell>) METHOD
+RefactoringAction 1444387716643 Grid.java ADD Grid(Set<Cell>) METHOD
+RefactoringAction 1444387718152 Grid.java ADD p ublic FIELD
+RefactoringAction 1444387720168 Grid.java REMOVE ublic FIELD
+RefactoringAction 1444387733224 Grid.java REMOVE cells FIELD
+RefactoringAction 1444387739236 Grid.java ADD Set<Cell> cells FIELD
+RefactoringAction 1444387765282 Grid.java REMOVE cells FIELD
+RefactoringAction 1444387770292 Grid.java RENAME Grid(Set<Cell>)=>Set<Cell> cells FIELD
+RefactoringAction 1444387835432 Grid.java ADD Set<Cell> cells/2 FIELD
+RefactoringAction 1444387845960 Grid.java REMOVE cells/2 FIELD
+RefactoringAction 1444387862513 Grid.java ADD Grid(Set<Cell>) METHOD
+RefactoringAction 1444387883036 Grid.java REMOVE Grid(Set<Cell>) METHOD
+RefactoringAction 1444388073610 Grid.java ADD Grid(Set<Cell>) METHOD
+RefactoringAction 1444388103628 Grid.java REMOVE Grid(Set<Cell>) METHOD
+RefactoringAction 1444388112513 Grid.java ADD Grid(int) METHOD
+RefactoringAction 1444388150689 TestGrid.java ADD void singleCellonGridHasNoNeighbours()/2 METHOD
+RefactoringAction 1444388163200 TestGrid.java RENAME singleCellonGridHasNoNeighbours()/2=>void creatGrid() METHOD
+RefactoringAction 1444388165211 TestGrid.java RENAME creatGrid()=>void creatGridOf() METHOD
+RefactoringAction 1444388168229 TestGrid.java RENAME creatGridOf()=>void creatGridOfSize0() METHOD
+RefactoringAction 1444388175749 TestGrid.java RENAME creatGridOfSize0()=>void creatGridOfSize0WithOneCell() METHOD
+RefactoringAction 1444388208712 Grid.java ADD int sizeOfGrid FIELD
+RefactoringAction 1444388234264 Grid.java REMOVE cells FIELD
+RefactoringAction 1444388236279 Grid.java ADD Set<Cell> cells FIELD
+CompilationAction 1444388237657 TestGrid.java
+CompilationAction 1444388324139 TestGrid.java
+UnitTestCaseAction 1444388325377 TestGrid.java OK
+UnitTestSessionAction 1444388325379 TestGrid OK
+UnitTestCaseAction 1444388354860 TestGrid.java OK
+UnitTestSessionAction 1444388354861 TestGrid OK
+UnitTestCaseAction 1444388367424 TestGrid.java OK
+UnitTestSessionAction 1444388367425 TestGrid OK
+RefactoringAction 1444388376835 TestGrid.java RENAME creatGridOfSize0WithOneCell()=>void createGridOfSize0WithOneCell() METHOD
+RefactoringAction 1444388404365 TestGrid.java ADD void createGridOfSize0WithOneCell()/2 METHOD
+RefactoringAction 1444388409381 TestGrid.java RENAME createGridOfSize0WithOneCell()/2=>void createGridOfSize0WithTwoCell() METHOD
+RefactoringAction 1444388412395 TestGrid.java RENAME createGridOfSize0WithTwoCell()=>void createGridOfSize0WithTwoCellsShouldFail() METHOD
+EditAction 1444388510566 TestGrid.java 1740 5 31 5

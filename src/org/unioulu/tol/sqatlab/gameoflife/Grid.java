@@ -4,8 +4,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Grid {
-	private Set<Cell> cells = new HashSet<>();
 	
+	int sizeOfGrid;
+	
+	public Grid(int sizeOfGrid) {
+		this.sizeOfGrid = sizeOfGrid;
+	}
+	
+	private Set<Cell> cells = new HashSet<>(sizeOfGrid);
+
 	public int getNeighbours(Cell cell) {
 		int numNeighbours = 0;
 		Set<Cell> neighbourhood = new HashSet<Cell>();

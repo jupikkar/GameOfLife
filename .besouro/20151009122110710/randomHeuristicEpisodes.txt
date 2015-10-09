@@ -9,3 +9,7 @@
 1444386570223 test-first 3 265 true
 1444386689104 test-last 1 87 false
 1444387163998 test-first 3 454 true
+1444387229757 test-first 3 49 true
+1444388325379 test-addition 1 930 false
+1444388354861 regression 1 0 false
+1444388367425 regression 1 0 true
