@@ -8,7 +8,19 @@ import org.unioulu.tol.sqatlab.gameoflife.Grid;
 public class TestGrid {
 
 	@Test
-	public void singleCellGrid() {
+	public void singleCellonGridHasNoNeighbours() {
+		//arrange
+		Grid grid = new Grid();
+		Cell cell = new Cell(0,0);
+		//act
+		grid.addCell(cell);
+		int numNeighbours = grid.getNeighbours(cell);
+		//assert
+		assertEquals(0, numNeighbours);
+	}
+	
+	@Test
+	public void sidngleCellonGridHasNoNeighbours() {
 		Grid grid = new Grid();
 		Cell cell = new Cell(0,0);
 		
