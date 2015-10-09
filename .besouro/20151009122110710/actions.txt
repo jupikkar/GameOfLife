@@ -16,3 +16,9 @@ CompilationAction 1444382774216 TestCell.java
 EditAction 1444382793170 TestCell.java 618 2 6 2
 EditAction 1444382860920 Cell.java 351 3 3 0
 EditAction 1444382885774 Cell.java 380 3 3 0
+UnitTestCaseAction 1444382890411 TestCell.java OK
+UnitTestSessionAction 1444382890412 TestCell OK
+RefactoringAction 1444383046954 TestGrid.java RENAME test()=>void s() METHOD
+RefactoringAction 1444383049963 TestGrid.java RENAME s()=>void singleCell() METHOD
+RefactoringAction 1444383054471 TestGrid.java RENAME singleCell()=>void singleCellGrid() METHOD
+EditAction 1444383307004 TestGrid.java 339 1 4 1

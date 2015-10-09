@@ -6,8 +6,13 @@ import org.junit.Test;
 public class TestGrid {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void singleCellGrid() {
+		Grid grid = new Grid();
+		Cell cell = new Cell(0,0);
+		
+		int numNeighbours = grid.getNeighbours(cell);
+		
+		assertEquals(0, numNeighbours);
 	}
 
 }
