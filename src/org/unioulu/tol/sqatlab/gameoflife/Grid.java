@@ -7,6 +7,7 @@ public class Grid {
 	private Set<Cell> cells = new HashSet<>();
 
 	public int getNeighbours(Cell cell) {
+		Set<Cell> neighbours = new Set<>();
 		return 0;
 	}
 
