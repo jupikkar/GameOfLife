@@ -134,3 +134,9 @@ UnitTestSessionAction 1444386261903 TestCell.testLiveCellWithThreeNeighboursShou
 UnitTestCaseAction 1444386268917 TestCell.java OK
 UnitTestSessionAction 1444386268918 TestCell OK
 EditAction 1444386280176 TestCell.java 826 3 9 3
+UnitTestCaseAction 1444386284067 TestCell.java OK
+UnitTestSessionAction 1444386284068 TestCell OK
+RefactoringAction 1444386304738 TestCell.java ADD void testLiveCellWithThreeNeighboursShouldLive()/2 METHOD
+RefactoringAction 1444386309750 TestCell.java RENAME testLiveCellWithThreeNeighboursShouldLive()/2=>void testLiveCellWithFourNeighboursShouldLive() METHOD
+RefactoringAction 1444386316264 TestCell.java RENAME testLiveCellWithFourNeighboursShouldLive()=>void testLiveCellWithFourNeighboursShouldDie() METHOD
+EditAction 1444386316368 TestCell.java 1036 4 12 4
