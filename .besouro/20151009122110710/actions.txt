@@ -84,3 +84,4 @@ EditAction 1444384607917 Cell.java 464 4 5 0
 RefactoringAction 1444384625380 Cell.java ADD int hashCode() METHOD
 RefactoringAction 1444384625382 Cell.java ADD boolean equals(Object) METHOD
 EditAction 1444384655355 Grid.java 292 2 2 0
+EditAction 1444384660793 Cell.java 1151 6 19 0
