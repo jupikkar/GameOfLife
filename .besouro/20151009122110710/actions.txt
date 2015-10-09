@@ -75,3 +75,8 @@ EditAction 1444384377294 Cell.java 547 6 7 0
 RefactoringAction 1444384458325 Cell.java REMOVE getY() METHOD
 RefactoringAction 1444384458326 Cell.java REMOVE getX() METHOD
 EditAction 1444384466152 Grid.java 181 2 1 0
+RefactoringAction 1444384536862 Grid.java ADD Set<Cell> c FIELD
+RefactoringAction 1444384539371 Grid.java RENAME c=>Set<Cell> cells FIELD
+RefactoringAction 1444384558134 Grid.java ADD import java.util.Set IMPORT
+RefactoringAction 1444384562537 Grid.java ADD import java.util.HashSet IMPORT
+EditAction 1444384567707 Grid.java 278 2 1 0
