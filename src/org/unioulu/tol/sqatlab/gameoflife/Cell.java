@@ -28,8 +28,8 @@ public class Cell {
 			state = "Dead";
 		else if (state == "Alive" && numberOfLiveNeighbours > 3)
 			state = "Dead";
-		else if (state == "Dead" && numberOfLiveNeighbours == 3)
-			state = "Alive";
+		else if (state == "Dead" && numberOfLiveNeighbours < 3)
+			state = "Dead";
 		else
 			state = "Alive";
 	}
