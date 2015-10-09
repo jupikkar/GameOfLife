@@ -33,7 +33,7 @@ public class TestCell {
 		//arrange
 		Cell cell = new Cell("Alive");
 		//act
-		cell.nextIteration(2);
+		cell.nextIteration(3);
 		//assert
 		assertEquals("Alive", cell.getState());
 	}

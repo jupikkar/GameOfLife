@@ -3,3 +3,5 @@
 1444383439230 refactoring 3 548 true
 1444383577180 test-first 4 137 true
 1444386020912 test-last 1 2443 false
+1444386261903 test-addition 1 240 false
+1444386268918 regression 1 7 false

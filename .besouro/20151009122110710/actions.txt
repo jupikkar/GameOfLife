@@ -129,3 +129,8 @@ UnitTestSessionAction 1444386020912 TestGrid OK
 RefactoringAction 1444386248056 TestCell.java ADD void testLiveCellWithTwoNeighboursShouldLive()/2 METHOD
 RefactoringAction 1444386253068 TestCell.java RENAME testLiveCellWithTwoNeighboursShouldLive()/2=>void testLiveCellWithThreeNeighboursShouldLive() METHOD
 EditAction 1444386257982 TestCell.java 826 3 9 3
+UnitTestCaseAction 1444386261902 TestCell.java OK
+UnitTestSessionAction 1444386261903 TestCell.testLiveCellWithThreeNeighboursShouldLive OK
+UnitTestCaseAction 1444386268917 TestCell.java OK
+UnitTestSessionAction 1444386268918 TestCell OK
+EditAction 1444386280176 TestCell.java 826 3 9 3
