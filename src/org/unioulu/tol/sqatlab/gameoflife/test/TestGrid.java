@@ -71,7 +71,7 @@ public class TestGrid {
 		
 		int numNeighbours = grid.getNeighbours(cell);
 		
-		assertNotEquals(1, numNeighbours);
+		assertNotEquals(2, grid.);
 	}
 
 }
