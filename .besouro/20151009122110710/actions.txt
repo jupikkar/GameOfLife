@@ -9,3 +9,6 @@ UnitTestSessionAction 1444382617728 TestCell.testLiveCellWithTwoNeighboursShould
 UnitTestCaseAction 1444382648368 TestCell.java FAIL
 UnitTestSessionAction 1444382648376 TestCell FAIL
 EditAction 1444382744662 TestCell.java 617 2 6 2
+CompilationAction 1444382748332 TestCell.java
+RefactoringAction 1444382761485 Cell.java RENAME nextIteration()=>void nextIteration(int) METHOD
+EditAction 1444382771432 Cell.java 285 3 2 0
