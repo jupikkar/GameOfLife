@@ -23,7 +23,7 @@ public class TestCell {
 		//arrange
 		Cell cell = new Cell("Alive");
 		//act
-		cell.nextIteration();
+		cell.nextIteration(2);
 		//assert
 		assertEquals("Alive", cell.getState());
 		
