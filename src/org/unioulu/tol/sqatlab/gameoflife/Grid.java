@@ -8,7 +8,6 @@ public class Grid {
 
 	public int getNeighbours(Cell cell) {
 		int numNeighbours = 0;
-		Set<Cell> neighbours = new HashSet<Cell>();
 		Set<Cell> neighbourhood = new HashSet<Cell>();
 		
 		for (int i=-1; i<=1; i++){
@@ -17,7 +16,7 @@ public class Grid {
 				numNeighbours++;
 			}
 		}
-		return numNeighbours;
+		return numNeighbours-1;
 	}
 
 	public void addCell(Cell cell) {
