@@ -80,3 +80,4 @@ RefactoringAction 1444384539371 Grid.java RENAME c=>Set<Cell> cells FIELD
 RefactoringAction 1444384558134 Grid.java ADD import java.util.Set IMPORT
 RefactoringAction 1444384562537 Grid.java ADD import java.util.HashSet IMPORT
 EditAction 1444384567707 Grid.java 278 2 1 0
+EditAction 1444384607917 Cell.java 464 4 5 0

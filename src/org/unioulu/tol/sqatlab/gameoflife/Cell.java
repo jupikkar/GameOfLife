@@ -5,14 +5,6 @@ public class Cell {
 	String state;
 	int x;
 	int y;
-	
-	public int getX() {
-		return x;
-	}
-
-	public int getY() {
-		return y;
-	}
 
 	public Cell(String initialState) {
 		this.state = initialState;
