@@ -63,3 +63,12 @@ RefactoringAction 1444383675642 TestGrid.java RENAME TwoNeighbourCellsOnGridShou
 RefactoringAction 1444383677653 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOneN()=>void TwoNeighbourCellsOnGridShouldHaveOneNeighbou() METHOD
 RefactoringAction 1444383680663 TestGrid.java RENAME TwoNeighbourCellsOnGridShouldHaveOneNeighbou()=>void TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach() METHOD
 EditAction 1444383682123 TestGrid.java 820 2 12 2
+UnitTestCaseAction 1444383689465 TestGrid.java FAIL
+UnitTestSessionAction 1444383689466 TestGrid.TwoNeighbourCellsOnGridShouldHaveOneNeighbourEach FAIL
+UnitTestCaseAction 1444383697132 TestGrid.java FAIL
+UnitTestSessionAction 1444383697133 TestGrid FAIL
+RefactoringAction 1444384362767 Cell.java ADD int getX() METHOD
+RefactoringAction 1444384362768 Cell.java ADD int getY() METHOD
+RefactoringAction 1444384368774 Cell.java REMOVE y FIELD
+RefactoringAction 1444384371287 Cell.java ADD int y FIELD
+EditAction 1444384377294 Cell.java 547 6 7 0
