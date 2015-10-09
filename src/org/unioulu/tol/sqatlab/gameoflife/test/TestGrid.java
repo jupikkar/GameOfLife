@@ -20,9 +20,10 @@ public class TestGrid {
 	}
 	
 	@Test
-	public void sidngleCellonGridHasNoNeighbours() {
+	public void TwoCellsonGridHasNoNeighbours() {
 		Grid grid = new Grid();
-		Cell cell = new Cell(0,0);
+		Cell cell1 = new Cell(0,0);
+		Cell cell = new Cell(0,1);
 		
 		int numNeighbours = grid.getNeighbours(cell);
 		

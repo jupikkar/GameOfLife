@@ -47,3 +47,8 @@ RefactoringAction 1444383550728 Grid.java ADD void addCell(Cell) METHOD
 RefactoringAction 1444383561885 TestGrid.java RENAME singleCellonGridHasNoNeighbours()/2=>void sidngleCellonGridHasNoNeighbours() METHOD
 EditAction 1444383568350 Grid.java 253 2 1 0
 EditAction 1444383571331 TestGrid.java 718 2 9 2
+UnitTestCaseAction 1444383577178 TestGrid.java OK
+UnitTestSessionAction 1444383577180 TestGrid.sidngleCellonGridHasNoNeighbours OK
+RefactoringAction 1444383579414 TestGrid.java RENAME sidngleCellonGridHasNoNeighbours()=>void TwoCellonGridHasNoNeighbours() METHOD
+RefactoringAction 1444383580926 TestGrid.java RENAME TwoCellonGridHasNoNeighbours()=>void TwoCellsonGridHasNoNeighbours() METHOD
+EditAction 1444383610983 TestGrid.java 746 2 10 2
