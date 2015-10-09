@@ -222,3 +222,5 @@ RefactoringAction 1444388404365 TestGrid.java ADD void createGridOfSize0WithOneC
 RefactoringAction 1444388409381 TestGrid.java RENAME createGridOfSize0WithOneCell()/2=>void createGridOfSize0WithTwoCell() METHOD
 RefactoringAction 1444388412395 TestGrid.java RENAME createGridOfSize0WithTwoCell()=>void createGridOfSize0WithTwoCellsShouldFail() METHOD
 EditAction 1444388510566 TestGrid.java 1740 5 31 5
+UnitTestCaseAction 1444388514468 TestGrid.java FAIL
+UnitTestSessionAction 1444388514469 TestGrid FAIL
