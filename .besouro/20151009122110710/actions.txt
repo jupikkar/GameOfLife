@@ -1,3 +1,11 @@
 FileOpenedAction 1444382471359 TestCell.java 612 2 6 2
 RefactoringAction 1444382482853 TestCell.java RENAME testLiveCellWithNeighboursShouldDie()=>void testLiveCellWithTwoNeighboursShouldDie() METHOD
 EditAction 1444382487316 TestCell.java 616 2 6 2
+UnitTestCaseAction 1444382500800 TestCell.java FAIL
+UnitTestSessionAction 1444382500801 TestCell.testLiveCellWithTwoNeighboursShouldLive FAIL
+RefactoringAction 1444382568952 Cell.java ADD String state FIELD
+UnitTestCaseAction 1444382617727 TestCell.java OK
+UnitTestSessionAction 1444382617728 TestCell.testLiveCellWithTwoNeighboursShouldLive OK
+UnitTestCaseAction 1444382648368 TestCell.java FAIL
+UnitTestSessionAction 1444382648376 TestCell FAIL
+EditAction 1444382744662 TestCell.java 617 2 6 2
