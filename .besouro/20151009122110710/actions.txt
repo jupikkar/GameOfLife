@@ -81,3 +81,6 @@ RefactoringAction 1444384558134 Grid.java ADD import java.util.Set IMPORT
 RefactoringAction 1444384562537 Grid.java ADD import java.util.HashSet IMPORT
 EditAction 1444384567707 Grid.java 278 2 1 0
 EditAction 1444384607917 Cell.java 464 4 5 0
+RefactoringAction 1444384625380 Cell.java ADD int hashCode() METHOD
+RefactoringAction 1444384625382 Cell.java ADD boolean equals(Object) METHOD
+EditAction 1444384655355 Grid.java 292 2 2 0

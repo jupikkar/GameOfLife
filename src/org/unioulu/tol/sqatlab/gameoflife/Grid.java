@@ -11,8 +11,7 @@ public class Grid {
 	}
 
 	public void addCell(Cell cell) {
-		
-		
+		cells.add(cell);		
 	}
 
 }
