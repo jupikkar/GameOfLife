@@ -39,11 +39,11 @@ public class TestCell {
 	}
 	
 	@Test
-	public void testLiveCellWithFourNeighboursShouldDie() {
+	public void testLiveCellWithOverThreeNeighboursShouldDie() {
 		//arrange
 		Cell cell = new Cell("Alive");
 		//act
-		cell.nextIteration(3);
+		cell.nextIteration(4);
 		//assert
 		assertEquals("Alive", cell.getState());
 	}
