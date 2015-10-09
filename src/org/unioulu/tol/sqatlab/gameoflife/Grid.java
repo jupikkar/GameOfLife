@@ -17,7 +17,7 @@ public class Grid {
 				numNeighbours++;
 			}
 		}
-		return 0;
+		return numNeighbours;
 	}
 
 	public void addCell(Cell cell) {
