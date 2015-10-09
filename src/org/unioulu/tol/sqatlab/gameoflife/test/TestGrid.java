@@ -28,7 +28,7 @@ public class TestGrid {
 		grid.addCell(cell1);
 		grid.addCell(cell2);
 		
-		int numNeighbours = grid.getNeighbours(cell);
+		int numNeighbours = grid.getNeighbours(cell1);
 		
 		assertEquals(1, numNeighbours);
 	}
