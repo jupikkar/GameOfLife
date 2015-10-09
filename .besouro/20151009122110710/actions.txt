@@ -52,3 +52,4 @@ UnitTestSessionAction 1444383577180 TestGrid.sidngleCellonGridHasNoNeighbours OK
 RefactoringAction 1444383579414 TestGrid.java RENAME sidngleCellonGridHasNoNeighbours()=>void TwoCellonGridHasNoNeighbours() METHOD
 RefactoringAction 1444383580926 TestGrid.java RENAME TwoCellonGridHasNoNeighbours()=>void TwoCellsonGridHasNoNeighbours() METHOD
 EditAction 1444383610983 TestGrid.java 746 2 10 2
+EditAction 1444383629164 TestGrid.java 797 2 12 2

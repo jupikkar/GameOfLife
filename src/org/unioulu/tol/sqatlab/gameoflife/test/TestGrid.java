@@ -25,6 +25,9 @@ public class TestGrid {
 		Cell cell1 = new Cell(0,0);
 		Cell cell = new Cell(0,1);
 		
+		grid.addCell(cell1);
+		grid.addCell(cell);
+		
 		int numNeighbours = grid.getNeighbours(cell);
 		
 		assertEquals(0, numNeighbours);
